@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
+body {
+  background: #0a1128;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header-left a {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+.sign-in {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  background: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+.subscribe {
+  padding: 13px 48px;
+  border: none;
+  border-radius: 5px;
+  background: #034078;
+  color: white;
+  cursor: pointer;
+  font-weight: 500px;
+}
+
+.mobile-menu {
+  font-size: 50px;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+.text h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.text p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  padding-top: 35px;
+}
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+}
+.section h1 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 35px;
+  padding-top: 280px;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.span span {
+  color: #898989;
+  font-size: 14px;
+  font-weight: 500;
+}
+.span p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 550;
+  padding-top: 10px;
+}
+.span {
+  width: 376.546px;
+  height: 168.731px;
+  border-radius: 0px 0px 19.066px 19.066px;
+  background: #fff;
+  padding: 17px 17px;
+}
+.java img {
+  border-radius: 19.066px 19.066px 0px 0px;
+  background: url(<path-to-image>),
+    lightgray -113.741px -71.044px / 130.049% 141.604% no-repeat;
+}
+.ion {
+  display: flex;
+  padding-top: 21px;
+  gap: 7.5px;
+}
+.icon {
+  width: 15.526px;
+  height: 18.112px;
+  color: #044176;
+}
+.ion h3 {
+  color: #044176;
+  font-size: 15px;
+  font-weight: 500;
+}
+.date {
+  padding-left: 160px;
+}
+.divs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.section button {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  background: #034078;
+  padding: 18px 40px;
+  border: none;
+  cursor: pointer;
+  margin: 50px 460px;
+}
+.content {
+  width: 1170px;
+  height: 240px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 9px 9px 9px 0px rgba(10, 15, 33, 0.45),
+    -5px -3px 10px 0px rgba(16, 23, 47, 0.45);
+  padding: 70px 73px;
+  display: flex;
+  gap: 175px;
+}
+.color1 h1 {
+  color: #000;
+  font-size: 28px;
+  font-weight: 700;
+}
+.color1 p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.color2 button {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 38px;
+  border-radius: 5px;
+  background: #034078;
+  border: none;
+  cursor: pointer;
+}
+.color2 a {
+  color: #767676;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.color2 {
+  display: flex;
+  flex-direction: column;
+}
+.guestions {
+  display: flex;
+  padding-top: 200px;
+  gap: 280px;
+}
+.display h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 45px;
+  padding-bottom: 44px;
+}
+.column h1 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  width: 645px;
+  padding-bottom: 16px;
+}
+.black {
+  color: #fff;
+  padding-bottom: 16px;
+}
+.column {
+  display: flex;
+  align-items: center;
+  text-decoration: underline #767676;
+  margin-bottom: 30px;
+}
